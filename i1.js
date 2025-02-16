@@ -28,3 +28,16 @@ function bright()
  {
      open("https://apps.microsoft.com/home?hl=en-US&gl=US");
  }
+function see()
+{
+   if (f1.k1.value == "" || f1.s1.value == "")
+   {
+      alert ("empty form");
+      if ( f1.k1.value == "")
+      {
+      f1.k1.value = "* empty" ;
+      }
+      else
+      f1.s1.value = "* empty" ;
+   }
+}
